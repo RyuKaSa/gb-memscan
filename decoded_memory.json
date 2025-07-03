@@ -2,98 +2,87 @@
   {
     "address": "0xD35E",
     "label": "Current Map Number",
-    "raw": 0,
-    "decoded": 0
+    "raw": 0
   },
   {
     "address": "0xD367",
     "label": "Map Tileset",
-    "raw": 0,
-    "decoded": 0
+    "raw": 0
   },
   {
     "address": "0xD368",
     "label": "Map Height (blocks)",
-    "raw": 9,
-    "decoded": 9
+    "raw": 9
   },
   {
     "address": "0xD369",
     "label": "Map Width (blocks)",
-    "raw": 10,
-    "decoded": 10
+    "raw": 10
   },
   {
     "address": "0xD361",
     "label": "Player Y-Position",
-    "raw": 5,
-    "decoded": 5
+    "raw": 5
   },
   {
     "address": "0xD362",
     "label": "Player X-Position",
-    "raw": 9,
-    "decoded": 9
+    "raw": 9
   },
   {
     "address": "0xD363",
     "label": "Player Y-Block",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD364",
     "label": "Player X-Block",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD365",
     "label": "Last Map Location",
-    "raw": 0,
-    "decoded": 0
+    "raw": 0
   },
   {
     "address": "0xD35D",
     "label": "Map Palette (Flash)",
-    "raw": 0,
-    "decoded": 0
+    "raw": 0
   },
   {
     "address": "0xD158",
     "label": "Trainer Name[1]",
     "raw": 128,
-    "decoded": "Ash<END>s"
+    "decoded": "Ash"
   },
   {
     "address": "0xD159",
     "label": "Trainer Name[2]",
     "raw": 178,
-    "decoded": 178
+    "decoded": "Ash"
   },
   {
     "address": "0xD15A",
     "label": "Trainer Name[3]",
     "raw": 167,
-    "decoded": 167
+    "decoded": "Ash"
   },
   {
     "address": "0xD15B",
     "label": "Trainer Name[4]",
     "raw": 80,
-    "decoded": 80
+    "decoded": "Ash"
   },
   {
     "address": "0xD15C",
     "label": "Trainer Name[5]",
     "raw": 178,
-    "decoded": 178
+    "decoded": "Ash"
   },
   {
     "address": "0xD163",
     "label": "Party Size",
-    "raw": 6,
-    "decoded": 6
+    "raw": 6
   },
   {
     "address": "0xD347",
@@ -104,14 +93,12 @@
   {
     "address": "0xD348",
     "label": "Money[2]",
-    "raw": 86,
-    "decoded": 86
+    "raw": 86
   },
   {
     "address": "0xD349",
     "label": "Money[3]",
-    "raw": 151,
-    "decoded": 151
+    "raw": 151
   },
   {
     "address": "0xD5A4",
@@ -122,86 +109,80 @@
   {
     "address": "0xD5A5",
     "label": "Casino Chips[2]",
-    "raw": 137,
-    "decoded": 137
+    "raw": 137
   },
   {
     "address": "0xD34A",
     "label": "Rival Name[1]",
     "raw": 134,
-    "decoded": "Gary<END>e<END>"
+    "decoded": "Gary"
   },
   {
     "address": "0xD34B",
     "label": "Rival Name[2]",
     "raw": 160,
-    "decoded": 160
+    "decoded": "Gary"
   },
   {
     "address": "0xD34C",
     "label": "Rival Name[3]",
     "raw": 177,
-    "decoded": 177
+    "decoded": "Gary"
   },
   {
     "address": "0xD34D",
     "label": "Rival Name[4]",
     "raw": 184,
-    "decoded": 184
+    "decoded": "Gary"
   },
   {
     "address": "0xD34E",
     "label": "Rival Name[5]",
     "raw": 80,
-    "decoded": 80
+    "decoded": "Gary"
   },
   {
     "address": "0xD34F",
     "label": "Rival Name[6]",
     "raw": 164,
-    "decoded": 164
+    "decoded": "Gary"
   },
   {
     "address": "0xD350",
     "label": "Rival Name[7]",
     "raw": 80,
-    "decoded": 80
+    "decoded": "Gary"
   },
   {
     "address": "0xD351",
     "label": "Rival Name[8]",
     "raw": 0,
-    "decoded": 0
+    "decoded": "Gary"
   },
   {
     "address": "0xD355",
     "label": "Game Options",
-    "raw": 65,
-    "decoded": 65
+    "raw": 65
   },
   {
     "address": "0xD35B",
     "label": "Audio Track",
-    "raw": 186,
-    "decoded": 186
+    "raw": 186
   },
   {
     "address": "0xD35C",
     "label": "Audio Bank",
-    "raw": 2,
-    "decoded": 2
+    "raw": 2
   },
   {
     "address": "0xD359",
     "label": "Player ID-hi",
-    "raw": 3,
-    "decoded": 3
+    "raw": 3
   },
   {
     "address": "0xD35A",
     "label": "Player ID-lo",
-    "raw": 213,
-    "decoded": 213
+    "raw": 213
   },
   {
     "address": "0xD164",
@@ -212,20 +193,17 @@
   {
     "address": "0xD16C",
     "label": "PKM1 HP lo",
-    "raw": 0,
-    "decoded": 0
+    "raw": 0
   },
   {
     "address": "0xD16D",
     "label": "PKM1 HP hi",
-    "raw": 230,
-    "decoded": 230
+    "raw": 230
   },
   {
     "address": "0xD16E",
     "label": "PKM1 TempLvl",
-    "raw": 90,
-    "decoded": 90
+    "raw": 90
   },
   {
     "address": "0xD16F",
@@ -272,44 +250,37 @@
   {
     "address": "0xD188",
     "label": "PKM1 PP1",
-    "raw": 15,
-    "decoded": 15
+    "raw": 15
   },
   {
     "address": "0xD189",
     "label": "PKM1 PP2",
-    "raw": 0,
-    "decoded": 0
+    "raw": 0
   },
   {
     "address": "0xD18A",
     "label": "PKM1 PP3",
-    "raw": 2,
-    "decoded": 2
+    "raw": 2
   },
   {
     "address": "0xD18B",
     "label": "PKM1 PP4",
-    "raw": 19,
-    "decoded": 19
+    "raw": 19
   },
   {
     "address": "0xD18C",
     "label": "PKM1 Level",
-    "raw": 91,
-    "decoded": 91
+    "raw": 91
   },
   {
     "address": "0xD18D",
     "label": "PKM1 MaxHP lo",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD18E",
     "label": "PKM1 MaxHP hi",
-    "raw": 68,
-    "decoded": 68
+    "raw": 68
   },
   {
     "address": "0xD165",
@@ -320,20 +291,17 @@
   {
     "address": "0xD198",
     "label": "PKM2 HP lo",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD199",
     "label": "PKM2 HP hi",
-    "raw": 194,
-    "decoded": 194
+    "raw": 194
   },
   {
     "address": "0xD19A",
     "label": "PKM2 TempLvl",
-    "raw": 90,
-    "decoded": 90
+    "raw": 90
   },
   {
     "address": "0xD19B",
@@ -380,44 +348,37 @@
   {
     "address": "0xD1B4",
     "label": "PKM2 PP1",
-    "raw": 10,
-    "decoded": 10
+    "raw": 10
   },
   {
     "address": "0xD1B5",
     "label": "PKM2 PP2",
-    "raw": 10,
-    "decoded": 10
+    "raw": 10
   },
   {
     "address": "0xD1B6",
     "label": "PKM2 PP3",
-    "raw": 20,
-    "decoded": 20
+    "raw": 20
   },
   {
     "address": "0xD1B7",
     "label": "PKM2 PP4",
-    "raw": 10,
-    "decoded": 10
+    "raw": 10
   },
   {
     "address": "0xD1B8",
     "label": "PKM2 Level",
-    "raw": 90,
-    "decoded": 90
+    "raw": 90
   },
   {
     "address": "0xD1B9",
     "label": "PKM2 MaxHP lo",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD1BA",
     "label": "PKM2 MaxHP hi",
-    "raw": 194,
-    "decoded": 194
+    "raw": 194
   },
   {
     "address": "0xD166",
@@ -428,20 +389,17 @@
   {
     "address": "0xD1C4",
     "label": "PKM3 HP lo",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD1C5",
     "label": "PKM3 HP hi",
-    "raw": 145,
-    "decoded": 145
+    "raw": 145
   },
   {
     "address": "0xD1C6",
     "label": "PKM3 TempLvl",
-    "raw": 90,
-    "decoded": 90
+    "raw": 90
   },
   {
     "address": "0xD1C7",
@@ -488,44 +446,37 @@
   {
     "address": "0xD1E0",
     "label": "PKM3 PP1",
-    "raw": 15,
-    "decoded": 15
+    "raw": 15
   },
   {
     "address": "0xD1E1",
     "label": "PKM3 PP2",
-    "raw": 15,
-    "decoded": 15
+    "raw": 15
   },
   {
     "address": "0xD1E2",
     "label": "PKM3 PP3",
-    "raw": 15,
-    "decoded": 15
+    "raw": 15
   },
   {
     "address": "0xD1E3",
     "label": "PKM3 PP4",
-    "raw": 15,
-    "decoded": 15
+    "raw": 15
   },
   {
     "address": "0xD1E4",
     "label": "PKM3 Level",
-    "raw": 90,
-    "decoded": 90
+    "raw": 90
   },
   {
     "address": "0xD1E5",
     "label": "PKM3 MaxHP lo",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD1E6",
     "label": "PKM3 MaxHP hi",
-    "raw": 145,
-    "decoded": 145
+    "raw": 145
   },
   {
     "address": "0xD167",
@@ -536,20 +487,17 @@
   {
     "address": "0xD1F0",
     "label": "PKM4 HP lo",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD1F1",
     "label": "PKM4 HP hi",
-    "raw": 200,
-    "decoded": 200
+    "raw": 200
   },
   {
     "address": "0xD1F2",
     "label": "PKM4 TempLvl",
-    "raw": 50,
-    "decoded": 50
+    "raw": 50
   },
   {
     "address": "0xD1F3",
@@ -596,44 +544,37 @@
   {
     "address": "0xD20C",
     "label": "PKM4 PP1",
-    "raw": 30,
-    "decoded": 30
+    "raw": 30
   },
   {
     "address": "0xD20D",
     "label": "PKM4 PP2",
-    "raw": 20,
-    "decoded": 20
+    "raw": 20
   },
   {
     "address": "0xD20E",
     "label": "PKM4 PP3",
-    "raw": 15,
-    "decoded": 15
+    "raw": 15
   },
   {
     "address": "0xD20F",
     "label": "PKM4 PP4",
-    "raw": 5,
-    "decoded": 5
+    "raw": 5
   },
   {
     "address": "0xD210",
     "label": "PKM4 Level",
-    "raw": 91,
-    "decoded": 91
+    "raw": 91
   },
   {
     "address": "0xD211",
     "label": "PKM4 MaxHP lo",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD212",
     "label": "PKM4 MaxHP hi",
-    "raw": 200,
-    "decoded": 200
+    "raw": 200
   },
   {
     "address": "0xD168",
@@ -644,20 +585,17 @@
   {
     "address": "0xD21C",
     "label": "PKM5 HP lo",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD21D",
     "label": "PKM5 HP hi",
-    "raw": 122,
-    "decoded": 122
+    "raw": 122
   },
   {
     "address": "0xD21E",
     "label": "PKM5 TempLvl",
-    "raw": 50,
-    "decoded": 50
+    "raw": 50
   },
   {
     "address": "0xD21F",
@@ -704,44 +642,37 @@
   {
     "address": "0xD238",
     "label": "PKM5 PP1",
-    "raw": 5,
-    "decoded": 5
+    "raw": 5
   },
   {
     "address": "0xD239",
     "label": "PKM5 PP2",
-    "raw": 10,
-    "decoded": 10
+    "raw": 10
   },
   {
     "address": "0xD23A",
     "label": "PKM5 PP3",
-    "raw": 20,
-    "decoded": 20
+    "raw": 20
   },
   {
     "address": "0xD23B",
     "label": "PKM5 PP4",
-    "raw": 20,
-    "decoded": 20
+    "raw": 20
   },
   {
     "address": "0xD23C",
     "label": "PKM5 Level",
-    "raw": 89,
-    "decoded": 89
+    "raw": 89
   },
   {
     "address": "0xD23D",
     "label": "PKM5 MaxHP lo",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD23E",
     "label": "PKM5 MaxHP hi",
-    "raw": 122,
-    "decoded": 122
+    "raw": 122
   },
   {
     "address": "0xD169",
@@ -752,20 +683,17 @@
   {
     "address": "0xD248",
     "label": "PKM6 HP lo",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD249",
     "label": "PKM6 HP hi",
-    "raw": 196,
-    "decoded": 196
+    "raw": 196
   },
   {
     "address": "0xD24A",
     "label": "PKM6 TempLvl",
-    "raw": 50,
-    "decoded": 50
+    "raw": 50
   },
   {
     "address": "0xD24B",
@@ -812,50 +740,42 @@
   {
     "address": "0xD264",
     "label": "PKM6 PP1",
-    "raw": 15,
-    "decoded": 15
+    "raw": 15
   },
   {
     "address": "0xD265",
     "label": "PKM6 PP2",
-    "raw": 15,
-    "decoded": 15
+    "raw": 15
   },
   {
     "address": "0xD266",
     "label": "PKM6 PP3",
-    "raw": 5,
-    "decoded": 5
+    "raw": 5
   },
   {
     "address": "0xD267",
     "label": "PKM6 PP4",
-    "raw": 20,
-    "decoded": 20
+    "raw": 20
   },
   {
     "address": "0xD268",
     "label": "PKM6 Level",
-    "raw": 93,
-    "decoded": 93
+    "raw": 93
   },
   {
     "address": "0xD269",
     "label": "PKM6 MaxHP lo",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD26A",
     "label": "PKM6 MaxHP hi",
-    "raw": 196,
-    "decoded": 196
+    "raw": 196
   },
   {
     "address": "0xD31D",
     "label": "Bag Count",
-    "raw": 9,
-    "decoded": 9
+    "raw": 9
   },
   {
     "address": "0xD31E",
@@ -866,8 +786,7 @@
   {
     "address": "0xD31F",
     "label": "Bag1 Qty",
-    "raw": 99,
-    "decoded": 99
+    "raw": 99
   },
   {
     "address": "0xD320",
@@ -878,8 +797,7 @@
   {
     "address": "0xD321",
     "label": "Bag2 Qty",
-    "raw": 99,
-    "decoded": 99
+    "raw": 99
   },
   {
     "address": "0xD322",
@@ -890,8 +808,7 @@
   {
     "address": "0xD323",
     "label": "Bag3 Qty",
-    "raw": 99,
-    "decoded": 99
+    "raw": 99
   },
   {
     "address": "0xD324",
@@ -902,8 +819,7 @@
   {
     "address": "0xD325",
     "label": "Bag4 Qty",
-    "raw": 99,
-    "decoded": 99
+    "raw": 99
   },
   {
     "address": "0xD326",
@@ -914,8 +830,7 @@
   {
     "address": "0xD327",
     "label": "Bag5 Qty",
-    "raw": 99,
-    "decoded": 99
+    "raw": 99
   },
   {
     "address": "0xD328",
@@ -926,8 +841,7 @@
   {
     "address": "0xD329",
     "label": "Bag6 Qty",
-    "raw": 67,
-    "decoded": 67
+    "raw": 67
   },
   {
     "address": "0xD32A",
@@ -938,8 +852,7 @@
   {
     "address": "0xD32B",
     "label": "Bag7 Qty",
-    "raw": 99,
-    "decoded": 99
+    "raw": 99
   },
   {
     "address": "0xD32C",
@@ -950,8 +863,7 @@
   {
     "address": "0xD32D",
     "label": "Bag8 Qty",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD32E",
@@ -962,8 +874,7 @@
   {
     "address": "0xD32F",
     "label": "Bag9 Qty",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD330",
@@ -974,14 +885,12 @@
   {
     "address": "0xD331",
     "label": "Bag10 Qty",
-    "raw": 99,
-    "decoded": 99
+    "raw": 99
   },
   {
     "address": "0xD53A",
     "label": "PC Count",
-    "raw": 30,
-    "decoded": 30
+    "raw": 30
   },
   {
     "address": "0xD53B",
@@ -992,8 +901,7 @@
   {
     "address": "0xD53C",
     "label": "PC1 Qty",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD53D",
@@ -1004,8 +912,7 @@
   {
     "address": "0xD53E",
     "label": "PC2 Qty",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD53F",
@@ -1016,8 +923,7 @@
   {
     "address": "0xD540",
     "label": "PC3 Qty",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD541",
@@ -1028,8 +934,7 @@
   {
     "address": "0xD542",
     "label": "PC4 Qty",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD543",
@@ -1040,8 +945,7 @@
   {
     "address": "0xD544",
     "label": "PC5 Qty",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD545",
@@ -1052,8 +956,7 @@
   {
     "address": "0xD546",
     "label": "PC6 Qty",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD547",
@@ -1064,8 +967,7 @@
   {
     "address": "0xD548",
     "label": "PC7 Qty",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD549",
@@ -1076,8 +978,7 @@
   {
     "address": "0xD54A",
     "label": "PC8 Qty",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD54B",
@@ -1088,8 +989,7 @@
   {
     "address": "0xD54C",
     "label": "PC9 Qty",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD54D",
@@ -1100,8 +1000,7 @@
   {
     "address": "0xD54E",
     "label": "PC10 Qty",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD356",
@@ -1121,91 +1020,89 @@
   {
     "address": "0xD5F3",
     "label": "Have Town Map",
-    "raw": 1,
-    "decoded": 1
+    "raw": 1
   },
   {
     "address": "0xD60D",
     "label": "Have Oak's Parcel",
     "raw": 2,
-    "decoded": 2
+    "decoded": true
   },
   {
     "address": "0xD755",
     "label": "Fought Brock",
     "raw": 196,
-    "decoded": 196
+    "decoded": true
   },
   {
     "address": "0xD75E",
     "label": "Fought Misty",
     "raw": 204,
-    "decoded": 204
+    "decoded": true
   },
   {
     "address": "0xD773",
     "label": "Fought Lt Surge",
     "raw": 223,
-    "decoded": 223
+    "decoded": true
   },
   {
     "address": "0xD77C",
     "label": "Fought Erika",
     "raw": 255,
-    "decoded": 255
+    "decoded": true
   },
   {
     "address": "0xD792",
     "label": "Fought Koga",
     "raw": 255,
-    "decoded": 255
+    "decoded": true
   },
   {
     "address": "0xD79A",
     "label": "Fought Blaine",
     "raw": 255,
-    "decoded": 255
+    "decoded": true
   },
   {
     "address": "0xD7B3",
     "label": "Fought Sabrina",
     "raw": 255,
-    "decoded": 255
+    "decoded": true
   },
   {
     "address": "0xD751",
     "label": "Fought Giovanni",
     "raw": 255,
-    "decoded": 255
+    "decoded": true
   },
   {
     "address": "0xD7D4",
     "label": "Defeated Zapdos",
     "raw": 3,
-    "decoded": 3
+    "decoded": true
   },
   {
     "address": "0xD7D8",
     "label": "Snorlax Verm gone",
     "raw": 129,
-    "decoded": 129
+    "decoded": true
   },
   {
     "address": "0xD7E0",
     "label": "Snorlax Cel gone",
     "raw": 130,
-    "decoded": 130
+    "decoded": true
   },
   {
     "address": "0xD7EE",
     "label": "Defeated Moltres",
     "raw": 126,
-    "decoded": 126
+    "decoded": true
   },
   {
     "address": "0xD782",
     "label": "Defeated Articuno",
-    "raw": 0,
-    "decoded": 0
+    "raw": 0
   }
 ]
