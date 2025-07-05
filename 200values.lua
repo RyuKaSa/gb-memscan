@@ -171,21 +171,28 @@ local function buildJSON()
 end
 
 -----------------------------------------------------------------------
---  Write once on first frame ----------------------------------------
+--  Dump every second (≈60 frames) -----------------------------------
 -----------------------------------------------------------------------
-local dumped = false
-callbacks:add("frame", function()
-  if dumped then return end
-  dumped = true
+local frameCount = 0
+local FPS        = 60
 
-  -- derive directory of this script
-  local path = debug.getinfo(1, 'S').source:sub(2)
-  local dir  = path:match("(.*/)")
-  local out  = (dir or "./") .. "memory_dump.json"
+-- derive output path once
+local path = debug.getinfo(1, 'S').source:sub(2)
+local dir  = path:match("(.*/)")
+local out  = (dir or "./") .. "memory_dump.json"
 
+local function writeDump()
   local f = assert(io.open(out, "w"))
   f:write(buildJSON())
   f:close()
-
   print("memory_dump.json written at: " .. out)
+end
+
+callbacks:add("frame", function()
+  frameCount = frameCount + 1
+  if frameCount < FPS then
+    return
+  end
+  frameCount = 0
+  writeDump()
 end)
