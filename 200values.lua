@@ -43,7 +43,7 @@ local ADDR = {
   {0xD355,"Game Options"},{0xD35B,"Audio Track"},
   {0xD35C,"Audio Bank"},{0xD359,"Player ID-hi"},{0xD35A,"Player ID-lo"},
   -- Pokémon 1 (18)
-  {0xD16B,"PKM1 Species"},
+  {0xD164,"PKM1 Species"},
   {0xD16C,"PKM1 HP lo"},{0xD16D,"PKM1 HP hi"},
   {0xD16E,"PKM1 TempLvl"},{0xD16F,"PKM1 Status"},
   {0xD170,"PKM1 Type1"},{0xD171,"PKM1 Type2"},
@@ -54,7 +54,7 @@ local ADDR = {
   {0xD18C,"PKM1 Level"},
   {0xD18D,"PKM1 MaxHP lo"},{0xD18E,"PKM1 MaxHP hi"},
   -- Pokémon 2 (18)
-  {0xD197,"PKM2 Species"},
+  {0xD165,"PKM2 Species"},
   {0xD198,"PKM2 HP lo"},{0xD199,"PKM2 HP hi"},
   {0xD19A,"PKM2 TempLvl"},{0xD19B,"PKM2 Status"},
   {0xD19C,"PKM2 Type1"},{0xD19D,"PKM2 Type2"},
@@ -65,7 +65,7 @@ local ADDR = {
   {0xD1B8,"PKM2 Level"},
   {0xD1B9,"PKM2 MaxHP lo"},{0xD1BA,"PKM2 MaxHP hi"},
   -- Pokémon 3 (18)
-  {0xD1C3,"PKM3 Species"},
+  {0xD166,"PKM3 Species"},
   {0xD1C4,"PKM3 HP lo"},{0xD1C5,"PKM3 HP hi"},
   {0xD1C6,"PKM3 TempLvl"},{0xD1C7,"PKM3 Status"},
   {0xD1C8,"PKM3 Type1"},{0xD1C9,"PKM3 Type2"},
@@ -76,7 +76,7 @@ local ADDR = {
   {0xD1E4,"PKM3 Level"},
   {0xD1E5,"PKM3 MaxHP lo"},{0xD1E6,"PKM3 MaxHP hi"},
   -- Pokémon 4 (18)
-  {0xD1EF,"PKM4 Species"},
+  {0xD167,"PKM4 Species"},
   {0xD1F0,"PKM4 HP lo"},{0xD1F1,"PKM4 HP hi"},
   {0xD1F2,"PKM4 TempLvl"},{0xD1F3,"PKM4 Status"},
   {0xD1F4,"PKM4 Type1"},{0xD1F5,"PKM4 Type2"},
@@ -87,7 +87,7 @@ local ADDR = {
   {0xD210,"PKM4 Level"},
   {0xD211,"PKM4 MaxHP lo"},{0xD212,"PKM4 MaxHP hi"},
   -- Pokémon 5 (18)
-  {0xD21B,"PKM5 Species"},
+  {0xD168,"PKM5 Species"},
   {0xD21C,"PKM5 HP lo"},{0xD21D,"PKM5 HP hi"},
   {0xD21E,"PKM5 TempLvl"},{0xD21F,"PKM5 Status"},
   {0xD220,"PKM5 Type1"},{0xD221,"PKM5 Type2"},
@@ -98,7 +98,7 @@ local ADDR = {
   {0xD23C,"PKM5 Level"},
   {0xD23D,"PKM5 MaxHP lo"},{0xD23E,"PKM5 MaxHP hi"},
   -- Pokémon 6 (18)
-  {0xD247,"PKM6 Species"},
+  {0xD169,"PKM6 Species"},
   {0xD248,"PKM6 HP lo"},{0xD249,"PKM6 HP hi"},
   {0xD24A,"PKM6 TempLvl"},{0xD24B,"PKM6 Status"},
   {0xD24C,"PKM6 Type1"},{0xD24D,"PKM6 Type2"},
@@ -107,7 +107,7 @@ local ADDR = {
   {0xD264,"PKM6 PP1"},{0xD265,"PKM6 PP2"},
   {0xD266,"PKM6 PP3"},{0xD267,"PKM6 PP4"},
   {0xD268,"PKM6 Level"},
-  {0xD269,"PKM6 MaxHP lo"},{0xD26A,"PKM6 MaxHP hi"},
+  {0xD269,"PKM6 MaxHP lo"},{0xD26A,"PKM6 MaxHP hi"},  
   -- Bag (21)
   {0xD31D,"Bag Count"},
   {0xD31E,"Bag1 ID"},{0xD31F,"Bag1 Qty"},
