@@ -17,7 +17,7 @@ def load_tbl(fname: str) -> dict[int, str]:
 
 # ─── Lookup tables ─────────────────────────────────────────
 CHARSET = load_tbl("dataset/charset.json")
-SPECIES = load_tbl("dataset/species.json")   # your 1→151 mapping
+SPECIES = load_tbl("dataset/species.json")
 MOVES   = load_tbl("dataset/moves.json")
 TYPES   = load_tbl("dataset/types.json")
 ITEMS   = load_tbl("dataset/items.json")
