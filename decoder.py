@@ -1,4 +1,4 @@
-# decoper.py
+# decoder.py
 import json
 from pathlib import Path
 
@@ -142,3 +142,40 @@ def generate_summary(values: dict) -> dict:
             if lbl.startswith(("Fought ", "Defeated ", "Have ")) or lbl.endswith(" gone")
         }
     }
+
+def generate_prose(save: dict) -> str:
+    lines = []
+    t = save["trainer"]
+    m = save["map"]
+    g = save["game_options"]
+
+    lines.append(f"Trainer {t['name']} (ID: {t['id_hi']}.{t['id_lo']}), Party Size: {t['party_size']}")
+    lines.append(f"Money: ₽{save['money']}, Casino Chips: {save['casino_chips']}")
+    lines.append("Badges: " + ", ".join(save["badges"]))
+
+    lines.append(f"Map: Number={m['number']}, Tileset={m['tileset']}, Size={m['width']}x{m['height']}, "
+                 f"Player Position=({m['player_x']},{m['player_y']}), Last Location={m['last_location']}")
+
+    lines.append(f"Game Options: Value={g['value']}, Audio Track={g['audio_track']}, Audio Bank={g['audio_bank']}")
+
+    lines.append("Party:")
+    for idx, p in enumerate(save["party"], 1):
+        moves = [f"{m} (PP {pp})" for m, pp in zip(p["moves"], p["pp"])]
+        types = "/".join(p["types"])
+        status = ", ".join(p["status"]) if p["status"] else "None"
+        lines.append(f" {idx}. {p['species']} - Level {p['level']}, HP {p['hp_current']}, "
+                     f"Status: {status}, Types: {types}, Moves: {', '.join(moves)}")
+
+    lines.append("Bag:")
+    for item, count in save["bag"].items():
+        lines.append(f" - {item}: {count}")
+
+    lines.append("PC Storage:")
+    for item, count in save["pc"].items():
+        lines.append(f" - {item}: {count}")
+
+    lines.append("Flags:")
+    for k, v in save["flags"].items():
+        lines.append(f" - {k}: {'Yes' if v else 'No'}")
+
+    return "\n".join(lines)
