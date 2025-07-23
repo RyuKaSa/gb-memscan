@@ -1,0 +1,5 @@
+venv/
+json_summary.json
+memory_dump.json
+prose_summary.txt
+.ropeproject
