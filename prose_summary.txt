@@ -1,0 +1,49 @@
+Trainer Ashs (ID: 3.213), Party Size: 6
+Money: ₽725697, Casino Chips: 689
+Badges: Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano, Earth
+Map: Number=0, Tileset=0, Size=10x9, Player Position=(5,6), Last Location=0
+Game Options: Value=65, Audio Track=186, Audio Bank=2
+Party:
+ 1. mewtwo - Level 91, HP 230, Status: None, Types: psychic/psychic, Moves: swift (PP 15), psychic (PP 0), psybeam (PP 2), recover (PP 19)
+ 2. mew - Level 90, HP 450, Status: None, Types: psychic/psychic, Moves: psychic (PP 10), transform (PP 10), mega-punch (PP 20), metronome (PP 10)
+ 3. charizard - Level 90, HP 401, Status: None, Types: fire/flying, Moves: fly (PP 15), fire-punch (PP 15), flamethrower (PP 15), fire-spin (PP 15)
+ 4. zapdos - Level 91, HP 456, Status: None, Types: electric/flying, Moves: thunder-shock (PP 30), psybeam (PP 20), fly (PP 15), hyper-beam (PP 5)
+ 5. articuno - Level 89, HP 378, Status: None, Types: ice/flying, Moves: hydro-pump (PP 5), ice-beam (PP 10), psybeam (PP 20), recover (PP 20)
+ 6. moltres - Level 93, HP 452, Status: None, Types: fire/flying, Moves: flamethrower (PP 15), fire-spin (PP 15), fire-blast (PP 5), take-down (PP 20)
+Bag:
+ - master-ball: 99
+ - hyper-potion: 99
+ - max-revive: 99
+ - full-heal: 99
+ - max-elixer: 99
+ - burn-heal: 67
+ - antidote: 99
+ - town-map: 1
+ - bicycle: 1
+PC Storage:
+ - lift-key: 1
+ - itemfinder: 1
+ - ss-ticket: 1
+ - silph-scope: 1
+ - poke-flute: 1
+ - card-key: 1
+ - exp-all: 1
+ - super-rod: 1
+ - Unknown(216): 1
+ - coin-case: 1
+Flags:
+ - Have Town Map: Yes
+ - Have Oak's Parcel: Yes
+ - Fought Brock: Yes
+ - Fought Misty: Yes
+ - Fought Lt Surge: Yes
+ - Fought Erika: Yes
+ - Fought Koga: Yes
+ - Fought Blaine: Yes
+ - Fought Sabrina: Yes
+ - Fought Giovanni: Yes
+ - Defeated Zapdos: Yes
+ - Snorlax Verm gone: Yes
+ - Snorlax Cel gone: Yes
+ - Defeated Moltres: Yes
+ - Defeated Articuno: No
