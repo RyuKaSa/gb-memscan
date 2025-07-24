@@ -176,18 +176,18 @@ end
 local frameCount = 0
 local FPS        = 60
 
--- derive output filenames once
-local path       = debug.getinfo(1, 'S').source:sub(2)
-local dir        = path:match("(.*/)")
-local outDir     = (dir or "./")
-local dumpPath   = outDir .. "memory_dump.json"
-local screenPath = outDir .. "screen.png"
+-- derive output paths once
+local scriptPath  = debug.getinfo(1, 'S').source:sub(2)
+local scriptDir   = scriptPath:match("(.*/)")
+local outDir      = (scriptDir or "./")
+local dumpPath    = outDir .. "memory_dump.json"
+local screenPath  = outDir .. "screen.png"
 
 local function writeDump()
     local f = assert(io.open(dumpPath, "w"))
     f:write(buildJSON())
     f:close()
-    console.log("memory_dump.json written")
+    print("memory_dump.json written at: " .. dumpPath)
 end
 
 callbacks:add("frame", function()
@@ -196,7 +196,11 @@ callbacks:add("frame", function()
         return
     end
     frameCount = 0
+
+    -- write JSON
     writeDump()
+
+    -- take screenshot using mGBA’s API
     emu:screenshot(screenPath)
-    console.log("screen.png saved")
+    print("screen.png saved at: " .. screenPath)
 end)
